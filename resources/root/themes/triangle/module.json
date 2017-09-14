@@ -1,0 +1,12 @@
+{
+    "alias": "triangle",
+    "name": "Tuke default theme: Triangle",
+    "author": "Tedozi Manson",
+    "description": "Tuke default theme: Triangle",
+    "namespace": "Tuke\\Themes\\Triangle",
+    "version": "1.0.8",
+    "autoload": "psr-4",
+    "require": {
+
+    }
+}

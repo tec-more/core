@@ -1,0 +1,34 @@
+{
+    "name": "tec-more/core",
+    "description": "TUKE Frameword.",
+    "keywords": ["framework", "laravel"],
+    "license": "GNU General Public License v3.0",
+    "homepage": "https://www.tukecx.com",
+    "support": {
+        "issues": "https://github.com/tec-more/tuke/issues",
+        "source": "https://github.com/tec-more/tuke"
+    },
+    "authors": [
+        {
+            "name": "He Pan",
+            "email": "hepan@tukecx.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "doctrine/dbal": "^2.5",
+        "laravelcollective/html": "5.4.*",
+        "yajra/laravel-datatables-oracle": "^7.0",
+        //"tec-more/theme": "1.0.*",
+        "tec-more/plugin": "1.0.*",
+        "tec-more/assets": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tuke\\Base\\": "src"
+        },
+        "files": [
+
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+<?php namespace Tuke\Base\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class ConsoleServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        $this->commands([
+            \Tuke\Base\Console\Commands\InstallCmsCommand::class,
+            \Tuke\Base\Console\Commands\UpdateCmsCommand::class,
+        ]);
+    }
+}

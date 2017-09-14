@@ -1,0 +1,9 @@
+{
+    "repos": "tec-more/core",
+    "alias": "tec-more-core",
+    "name": "Tuke core module",
+    "author": "He Pan",
+    "description": "Tuke core module",
+    "namespace": "Tuke\\Base",
+    "autoload": "psr-4"
+}
